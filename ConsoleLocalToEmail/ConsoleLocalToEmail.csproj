@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileTransferService\FileTransferService.csproj">
+      <Project>{30ff19dd-2143-457c-aa93-f609233a0fb4}</Project>
+      <Name>FileTransferService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
